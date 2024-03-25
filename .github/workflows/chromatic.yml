@@ -22,5 +22,5 @@ jobs:
 
       - name: Run Chromatic
         env:
-          CHROMATIC_PROJECT_TOKEN: ${{ secrets.chpt_d63530b3ef235e6 }}
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
         run: npx chromatic run --exit-zero-on-changes
