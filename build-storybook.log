@@ -1,18 +1,60 @@
 yarn run v1.22.19
-$ storybook build --output-dir C:\Users\GameLord\AppData\Local\Temp\chromatic--24112-RqjcWDuLkAmo
+$ storybook build --output-dir C:\Users\GameLord\AppData\Local\Temp\chromatic--5392-RZ9OBmeZy0Kn
 @storybook/cli v8.0.4
 
-info => Cleaning outputDir: C:\Users\GameLord\AppData\Local\Temp\chromatic--24112-RqjcWDuLkAmo
+info => Cleaning outputDir: C:\Users\GameLord\AppData\Local\Temp\chromatic--5392-RZ9OBmeZy0Kn
 info => Loading presets
 info => Building manager..
-info => Manager built (140 ms)
+info => Manager built (597 ms)
 info => Building preview..
-info => Copying static files: public at C:\Users\GameLord\AppData\Local\Temp\chromatic--24112-RqjcWDuLkAmo
+info => Copying static files: public at C:\Users\GameLord\AppData\Local\Temp\chromatic--5392-RZ9OBmeZy0Kn
 [36mvite v4.5.1 [32mbuilding for production...[36m[39m
 transforming...
 [32m✓[39m 841 modules transformed.
 rendering chunks...
-[32m✓ built in 10.58s[39m
-=> Failed to build the preview
-Error: ENOSPC: no space left on device, write
-[?25l[2K[1G[36m?[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m»[39m [90m(Y/n)[39minfo Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+computing gzip size...
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[32miframe.html                                    [39m[1m[2m 12.97 kB[22m[1m[22m[2m │ gzip:   3.62 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[32massets/percolate-dac75269.ttf                  [39m[1m[2m 34.04 kB[22m[1m[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[32massets/percolate-ec979d96.woff                 [39m[1m[2m 34.11 kB[22m[1m[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[32massets/percolate-5ed633c2.eot                  [39m[1m[2m 34.21 kB[22m[1m[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[32massets/percolate-d13fa91b.svg                  [39m[1m[2m140.51 kB[22m[1m[22m[2m │ gzip:  46.93 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[35massets/preview-b4722114.css                    [39m[1m[2m  6.89 kB[22m[1m[22m[2m │ gzip:   2.06 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/preview-73c648b3.js                     [39m[1m[2m  0.07 kB[22m[1m[22m[2m │ gzip:   0.08 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/_commonjs-dynamic-modules-302442b1.js   [39m[1m[2m  0.24 kB[22m[1m[22m[2m │ gzip:   0.19 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/WithTooltip-Y7J54OF7-842bf1cd.js        [39m[1m[2m  0.43 kB[22m[1m[22m[2m │ gzip:   0.27 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/index-b0b08db2.js                       [39m[1m[2m  0.46 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/syntaxhighlighter-JOJW2KGS-dcf55f0f.js  [39m[1m[2m  0.48 kB[22m[1m[22m[2m │ gzip:   0.31 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/preview-73104b77.js                     [39m[1m[2m  0.64 kB[22m[1m[22m[2m │ gzip:   0.45 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/preview-ae5c16e9.js                     [39m[1m[2m  0.66 kB[22m[1m[22m[2m │ gzip:   0.43 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/_commonjsHelpers-de833af9.js            [39m[1m[2m  0.69 kB[22m[1m[22m[2m │ gzip:   0.38 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/index-356e4a49.js                       [39m[1m[2m  0.77 kB[22m[1m[22m[2m │ gzip:   0.47 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/preview-56f5f159.js                     [39m[1m[2m  0.79 kB[22m[1m[22m[2m │ gzip:   0.52 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/index-8d47fad6.js                       [39m[1m[2m  0.80 kB[22m[1m[22m[2m │ gzip:   0.52 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/preview-0ef86afd.js                     [39m[1m[2m  0.86 kB[22m[1m[22m[2m │ gzip:   0.55 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/preview-db29cc79.js                     [39m[1m[2m  0.91 kB[22m[1m[22m[2m │ gzip:   0.62 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/entry-preview-96f6b238.js               [39m[1m[2m  1.28 kB[22m[1m[22m[2m │ gzip:   0.74 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/index-11d98b33.js                       [39m[1m[2m  2.59 kB[22m[1m[22m[2m │ gzip:   1.26 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/InboxScreen.stories-034345df.js         [39m[1m[2m  2.91 kB[22m[1m[22m[2m │ gzip:   1.17 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/preview-98b085a7.js                     [39m[1m[2m  3.19 kB[22m[1m[22m[2m │ gzip:   1.37 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/preview-76c1789d.js                     [39m[1m[2m  3.52 kB[22m[1m[22m[2m │ gzip:   1.71 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/Task.stories-ec50873d.js                [39m[1m[2m  3.69 kB[22m[1m[22m[2m │ gzip:   1.55 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/iframe-30d27fae.js                      [39m[1m[2m  4.47 kB[22m[1m[22m[2m │ gzip:   1.62 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/index-76fb7be0.js                       [39m[1m[2m  7.16 kB[22m[1m[22m[2m │ gzip:   2.91 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/preview-da31036b.js                     [39m[1m[2m  7.62 kB[22m[1m[22m[2m │ gzip:   1.55 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/preview-c56bf6ac.js                     [39m[1m[2m  8.28 kB[22m[1m[22m[2m │ gzip:   3.17 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/index-da07a199.js                       [39m[1m[2m 13.61 kB[22m[1m[22m[2m │ gzip:   5.13 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/Color-RQJUDNI5-25f467b6.js              [39m[1m[2m 17.62 kB[22m[1m[22m[2m │ gzip:   6.80 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/TaskList.stories-2a533504.js            [39m[1m[2m 32.49 kB[22m[1m[22m[2m │ gzip:  12.06 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/preview-29c81412.js                     [39m[1m[2m 34.23 kB[22m[1m[22m[2m │ gzip:  13.41 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/_getPrototype-44826042.js               [39m[1m[2m 78.61 kB[22m[1m[22m[2m │ gzip:  23.57 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/react-18-236157c6.js                    [39m[1m[2m134.55 kB[22m[1m[22m[2m │ gzip:  43.45 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/formatter-B5HCVTEV-9bcf9110.js          [39m[1m[2m210.85 kB[22m[1m[22m[2m │ gzip:  70.71 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/entry-preview-docs-d77cbf31.js          [39m[1m[2m212.81 kB[22m[1m[22m[2m │ gzip:  66.61 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/index-03d05a58.js                       [39m[1m[2m375.25 kB[22m[1m[22m[2m │ gzip: 116.12 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/axe-18789938.js                         [39m[1m[33m556.58 kB[39m[22m[2m │ gzip: 152.93 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/DocsRenderer-K4EAMTCU-10a70a6b.js       [39m[1m[33m583.50 kB[39m[22m[2m │ gzip: 176.50 kB[22m
+[2mC:/Users/GameLord/AppData/Local/Temp/chromatic--5392-RZ9OBmeZy0Kn/[22m[36massets/index-444a5176.js                       [39m[1m[33m583.97 kB[39m[22m[2m │ gzip: 155.58 kB[22m
+[32m✓ built in 9.97s[39m
+info => Preview built (11 s)
+info => Output directory: C:\Users\GameLord\AppData\Local\Temp\chromatic--5392-RZ9OBmeZy0Kn
+Done in 15.83s.

@@ -50,7 +50,6 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
-  -webkit-appearance: button;
 }
 
 @keyframes spin {
@@ -280,7 +279,6 @@ textarea {
   width: 100%;
   background: white;
   transition: all ease-out 150ms;
-  padding: 20px 50px;
 }
 
 .list-item .title {
@@ -293,6 +291,7 @@ textarea {
 .list-item input[type="text"] {
   background: transparent;
   width: 100%;
+  cursor: pointer;
 }
 
 .list-item input[type="text"]:focus {
