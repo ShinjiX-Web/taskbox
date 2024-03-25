@@ -280,6 +280,7 @@ textarea {
   width: 100%;
   background: white;
   transition: all ease-out 150ms;
+  padding: 20px 50px;
 }
 
 .list-item .title {
@@ -385,6 +386,8 @@ textarea {
   position: relative;
   background: white;
   min-height: 288px;
+  /* margin: 50px auto;
+  width: 60%; */
 }
 
 .list-items .select-placeholder {
